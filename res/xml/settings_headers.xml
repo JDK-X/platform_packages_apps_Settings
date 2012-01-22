@@ -17,6 +17,18 @@
 <preference-headers
         xmlns:android="http://schemas.android.com/apk/res/android">
 
+ <!-- JDK-X Optons -->
+    <header android:title="@string/jdkx_options_title" />
+
+    <header android:icon="@drawable/ic_settings_jdkx"
+            android:title="@string/jdkx_updater_title">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="jdkernel.ui.MainActivity"
+                android:targetPackage="jdkernel.ui" />
+    </header>
+
+
 
     <!-- WIRELESS and NETWORKS -->
     <header android:title="@string/header_category_wireless_networks" />
